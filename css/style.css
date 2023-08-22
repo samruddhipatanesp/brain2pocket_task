@@ -1,0 +1,224 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather:wght@700&family=Poppins:wght@700&display=swap');
+
+body{
+ 
+}
+h1{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 79px;
+  color: #1b1d47;
+  /* letter-spacing: 0px; */
+  line-height: 76px;
+  padding-bottom: 20px;
+
+}
+.wrapper-slider-content{
+  padding-top: 19px;
+  padding-left: 17px;
+
+}
+
+h5{
+ 
+  font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.btn-secondary{
+  background-color: #ff4979 !important;
+  padding: 15px 64px 15px 64px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border-radius: 4%;
+  border: none;
+  font-size: 18px;
+  
+}
+p{
+  color:gray;
+}
+.slider_wrap{
+  background-image: url(../img/sl1.jpg);
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 596px;
+}
+
+.wrap1{
+    width: 10%;
+}
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: relative;
+    top: 18px;
+    left: 33px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+    width: 120%;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+    
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  .wrap8{
+    
+    font-size: 27px;
+    color: gray;
+    width: 82%;
+    margin-bottom: 59px;
+    line-height: 32px;
+
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    float: right;
+}
+li.nav-item {
+  margin-left: 44px;
+  font-size: 14px;
+  color: #1b1d47;
+}
+.hamburger-menu{
+  padding-top: 17px !important;
+  padding-top: 17px !important;
+  margin-left: -24px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(27 28 71) !important;
+}
+.wrapper1{
+  padding-left:17px;
+}
+.zero1{
+  display: none;
+}
+
+@media (min-width: 375px) and (max-width: 667px) { 
+h1{
+  padding: 4px;
+}
+.wrap8{
+  font-size: 18px;
+  color: gray;
+  width: 100%;
+}
+ }
+ @media (min-width: 320px) and (max-width: 767px) { 
+  .navbar{
+    display: none;
+  }
+  h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    color: #1b1d47;
+    /* letter-spacing: 0px; */
+    line-height: 46px;
+    padding-bottom: 20px;
+}
+  .slider_wrap {
+    background-image: none !important;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height:auto !important;
+}
+.zero1{
+  width: 100%;
+  display: block;
+}
+.btn-secondary {
+  background-color: #ff4979 !important;
+  padding: 9px 45px 9px 45px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border-radius: 4%;
+  border: none;
+  font-size: 18px;
+}
+.pt-5 {
+  padding-top: 1rem!important;
+}
+.s1{
+  margin-top: 28px;
+}
+.wrap8 {
+  font-size: 19px;
+  color: gray;
+  width: 84%;
+  margin-bottom: 40px;
+  line-height: 32px;
+}
+ }
+
+
